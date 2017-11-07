@@ -1,25 +1,24 @@
-# README
+# MilSpouseCodersNewbies
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Want to connect with other military spouses learning software development. MilSpouseCodersNewbies helps you ask questions, connect, and learn from a large military community.
 
-Things you may want to cover:
+## Table of Contents
+* Technologies Used
+* Wistia API
+* How to use MilSpouseCodersNewbies
+* Register for an account
 
-* Ruby version
+## Techologies Used
+* Back-end: Ruby, Rails
+  * Ruby version 2.4.2
+  * Rails version 5.1.4
 
-* System dependencies
+* Front-end:
 
-* Configuration
+* API: Google Maps, Wistia
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* Installation instructions
 
 * ...
-# MilSpouseCodersNewbies
+## Author
+ToAnh Tran () is a Full Stack Web Developer living in San Diego, CA.  If you have any questions about MilSpouseCodersNewbies, feel free to reach out toanh.t.tran@gmail.com
