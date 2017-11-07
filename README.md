@@ -13,7 +13,7 @@ Want to connect with other military spouses learning software development? MilSp
   * Ruby version 2.4.2
   * Rails version 5.1.4
 
-* Front-end: Materialize [Materializecss.com](http://materializecss.com/)
+* Front-end: Materialize framework [Materializecss.com](http://materializecss.com/)
   * Materialize version 0.100.2
 
 * API: Google Maps, Wistia [Wistia] (https://wistia.com)
