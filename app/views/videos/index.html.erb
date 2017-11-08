@@ -11,11 +11,11 @@
   <li>
     <div class="collapsible-header">
       <i class="material-icons">library_books</i>
-      <% link_to video.title, video %>
-      <span class="right">
-        <% link_to edit_video_path(video) do %>
-        <i class="material-icons">border_color</i><% end %>
-        <% link_to video, method: :delete, data: { confirm: "Are you sure?" } do %>
+      <%= link_to video.title, video %>
+      <span class="badge">
+        <%= link_to edit_video_path(video) do %>
+        <i class="material-icons">create</i><% end %>
+        <%= link_to video, method: :delete, data: { confirm: "Are you sure?" } do %>
         <i class="material-icons">clear</i> <% end %>
       </span>
     </div>

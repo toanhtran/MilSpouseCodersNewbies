@@ -22,16 +22,16 @@
   <body>
     <nav>
     <div class="nav-wrapper cyan darken-2">
-      <a href="#!" class="brand-logo">MilSpouseCodersNewbies</a>
+      <%= link_to "MilSpouseCoders", root_path, :class => "brand-logo" %>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#"><i class="material-icons">view_list</i></a></li>
+        <li><a href="<%= root_path %>"><i class="material-icons">view_list</i></a></li>
         <li><a href="<%= pages_about_path %>"><i class="material-icons">perm_identity</i></a></li>
         <li><a href="<%= pages_contact_path %>"><i class="material-icons">room</i></a></li>
 
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a href="#"><i class="material-icons">view_list</i></a></li>
+        <li><a href="<%= root_path %>"><i class="material-icons">view_list</i></a></li>
         <li><a href="<%= pages_about_path %>"><i class="material-icons">perm_identity</i></a></li>
         <li><a href="<%= pages_contact_path %>"><i class="material-icons">room</i></a></li>
       </ul>
