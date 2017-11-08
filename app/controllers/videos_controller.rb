@@ -11,6 +11,8 @@ class VideosController < ApplicationController
   # GET /videos/1.json
   def show
     @videos = Video.all
+    @next_video = @video.next
+    @prev_video = @video.prev
   end
 
   # GET /videos/new
