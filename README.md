@@ -8,7 +8,7 @@ Want to connect with other military spouses learning software development? MilSp
 * How to use MilSpouseCodersNewbies
 * Register for an account
 
-## <a name="technologies"></a> Used
+## <a name="technologies"></a> Technologies Used
 * Back-end: Ruby, Rails
   * Ruby version 2.4.2
   * Rails version 5.1.4
