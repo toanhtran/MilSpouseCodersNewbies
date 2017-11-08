@@ -14,10 +14,10 @@ Want to connect with other military spouses learning software development? MilSp
   * Ruby version 2.4.2
   * Rails version 5.1.4
 
-* Front-end: Materialize framework [Materializecss.com](http://materializecss.com/)
+* Front-end: [Materializecss.com](http://materializecss.com/)
   * Materialize version 0.100.2
 
-* <a name="apis"></a> API: Google Maps [Google Maps](https://developers.google.com/maps/), Twitter [Twitter](https://developer.twitter.com/),Wistia [Wistia] (https://wistia.com)
+* <a name="apis"></a> API: [Google Maps](https://developers.google.com/maps/), [Twitter](https://developer.twitter.com/), [Wistia](https://wistia.com)
 
 * [Installation instructions](#installation)
 
