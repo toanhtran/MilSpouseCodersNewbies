@@ -4,9 +4,10 @@ Want to connect with other military spouses learning software development? MilSp
 
 ## Table of Contents
 * [Technologies Used](#technologies)
+* [Installation](#installation)
 * [APIs](#apis)
-* How to use MilSpouseCodersNewbies
-* Register for an account
+* [How to use MilSpouseCodersNewbies](#howtouse)
+
 
 ## <a name="technologies"></a> Technologies Used
 * Back-end: Ruby, Rails
@@ -87,6 +88,16 @@ $ rails server
 You can now navigate to localhost:3000 [localhost](http://localhost:3000) to access MilSpouseCodersNewbies
 
 Use Control + C to stop the server.
+
+## <a name="howtouse"></a>How To Use 
+<img width="400" alt="screen shot 2017-11-08 at 12 30 20 pm" src="https://user-images.githubusercontent.com/10580157/32574714-db5b5f6c-c486-11e7-86af-4cbe5acaaafc.png">
+
+<img width="400" alt="screen shot 2017-11-08 at 12 26 15 pm" src="https://user-images.githubusercontent.com/10580157/32574738-eb559f36-c486-11e7-8f23-9a1f33217d8c.png">
+
+<img width="400" alt="screen shot 2017-11-08 at 12 26 29 pm" src="https://user-images.githubusercontent.com/10580157/32574743-f04eebf0-c486-11e7-8cc5-f12ee66ea683.png">
+
+<a href="https://imgflip.com/gif/1z1hoi"><img src="https://i.imgflip.com/1z1hoi.gif" title="made at imgflip.com"/></a>
+
 
 View on Heroku
 https://floating-garden-35866.herokuapp.com/
