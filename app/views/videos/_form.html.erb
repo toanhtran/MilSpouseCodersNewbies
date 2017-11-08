@@ -1,5 +1,5 @@
-<%= form_with(model: video, local: true) do |form| %>
-  <% if video.errors.any? %>
+<%= form_with(model: @video, local: true) do |form| %>
+  <% if @video.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(video.errors.count, "error") %> prohibited this video from being saved:</h2>
 
@@ -11,22 +11,18 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :wistia %>
-    <%= form.text_field :wistia, id: :video_wistia %>
+  <div class="input-field">
+    <%= form.text_field :wistia, :placeholder => 'Link', :length => '10', id: :video_wistia %>
   </div>
 
-  <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title, id: :video_title %>
+  <div class="input-field">
+    <%= form.text_field :title, :placeholder => 'Title', :length => '20', id: :video_title %>
   </div>
 
-  <div class="field">
-    <%= form.label :description %>
-    <%= form.text_area :description, id: :video_description %>
+  <div class="input-field">
+    <%= form.text_area :description, :placeholder => 'Description', :maxlength => '1000', :class => 'materialize-textarea', class: "validate", data:{ length: "1000"}, id: :video_description %>
   </div>
 
-  <div class="actions">
-    <%= form.submit %>
-  </div>
+  <button class="btn waves-effect waves-light" type="submit" name="action">Submit</button>
+  <a href="<%= videos_path %>" class="btn waves-effect waves-light cyan darken-2" name="action">Back</a>
 <% end %>
