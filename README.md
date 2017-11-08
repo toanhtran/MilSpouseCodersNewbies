@@ -1,10 +1,10 @@
 # MilSpouseCodersNewbies
 
-Want to connect with other military spouses learning software development? MilSpouseCodersNewbies helps you ask questions, connect, and learn from a large military community.
+Want to connect with other military spouses learning software development? MilSpouseCodersNewbies helps you ask questions, connect, and learn from a large military community. You can locate us and grab a coffee. Or see our latest tweets. If you want to learn you can watch the latest videos.
 
 ## Table of Contents
 * [Technologies Used](#technologies)
-* Wistia API
+* [APIs](#apis)
 * How to use MilSpouseCodersNewbies
 * Register for an account
 
@@ -16,7 +16,7 @@ Want to connect with other military spouses learning software development? MilSp
 * Front-end: Materialize framework [Materializecss.com](http://materializecss.com/)
   * Materialize version 0.100.2
 
-* API: Google Maps, Wistia [Wistia] (https://wistia.com)
+* <a name="apis"></a> API: Google Maps [Google Maps](https://developers.google.com/maps/), Twitter [Twitter](https://developer.twitter.com/),Wistia [Wistia] (https://wistia.com)
 
 * [Installation instructions](#installation)
 
