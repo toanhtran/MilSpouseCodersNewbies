@@ -88,6 +88,8 @@ You can now navigate to localhost:3000 [localhost](http://localhost:3000) to acc
 
 Use Control + C to stop the server.
 
+View on Heroku
+https://floating-garden-35866.herokuapp.com/
 
 
 ## Author
